@@ -1,9 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+import { increaseAction } from '../services/actions/counterAction';
+
 
 const Counter = () => {
-    const [count, setCount] = useState(0)
+    const count = useSelector((state) => (state.count));
+    const dispatch = useDispatch();
     const handleIncrease = () => {
-        setCount(count + 1)
+        dispatch(increaseAction())
     }
     return (
         <div>
