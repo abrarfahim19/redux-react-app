@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import getAllTodos from '../services/actions/toDoAction';
 
 const Todo = () => {
-    const { isLoading, todos, error } = useSelector((state) => (state));
+    const { isLoading, todos, error } = useSelector((state) => (state.todoR));
     const dispatch = useDispatch();
 
     useEffect(() => {

@@ -5,7 +5,9 @@ import { decreaseAction, increaseAction, reset } from '../services/actions/count
 
 
 const Counter = () => {
-    const count = useSelector((state) => (state.count));
+    // const [count , setCount] = useState(0)
+    // const handleIncrease = (count) => setCount(count + 1)
+    const count = useSelector((state) => (state.countR.count));
     const dispatch = useDispatch();
     const handleIncrease = () => {
         dispatch(increaseAction())
