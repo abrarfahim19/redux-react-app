@@ -41,7 +41,7 @@
   margin: 10px;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  background-color: #2196F3;
+  background-color: #2196f3;
   padding: 10px;
 }
 
@@ -71,22 +71,24 @@
 }
 
 .nav:hover {
-  border-bottom: 2px solid #2196F3;
+  border-bottom: 2px solid #2196f3;
 }
 
-.crud-container{
+.crud-container {
   display: grid;
   grid-template-columns: auto auto;
 }
 
-table , td, th{
-  border: 1px solid #2196F3;
+table,
+td,
+th {
+  border: 1px solid #2196f3;
 }
 
 td {
   padding: 10px;
 }
 
-#book-table{
+#book-table {
   margin: auto;
 }
