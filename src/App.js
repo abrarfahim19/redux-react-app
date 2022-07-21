@@ -1,6 +1,7 @@
 // import Counter from './components/Counter';
 // import Todo from './components/Todo';
 import './App.css'
+import CheckGithubView from './features/checkGithub/CheckGithubView';
 import CounterView from "./features/counter/CounterView";
 import PostsView from "./features/posts/PostsView";
 
@@ -9,8 +10,9 @@ function App() {
     <div>
       {/* <Counter></Counter>
       <Todo></Todo> */}
-      <CounterView></CounterView>
-      <PostsView></PostsView>
+      <CheckGithubView/>
+      <CounterView/>
+      <PostsView/>
     </div>
   );
 }
