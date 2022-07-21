@@ -60,3 +60,33 @@
     grid-template-columns: auto auto;
   }
 }
+
+.nav {
+  text-decoration: none;
+  margin-top: 1em;
+  margin-left: 1em;
+  font-weight: light;
+  color: black;
+  font-size: medium;
+}
+
+.nav:hover {
+  border-bottom: 2px solid #2196F3;
+}
+
+.crud-container{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+table , td, th{
+  border: 1px solid #2196F3;
+}
+
+td {
+  padding: 10px;
+}
+
+#book-table{
+  margin: auto;
+}
